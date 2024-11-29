@@ -13,14 +13,12 @@ class Sorveteria_ice(Restaurante):
     
     def __init__(self,nome_restaurante,tipo_comida,sabor):
         super().__init__(nome_restaurante,tipo_comida,sabor)
-        self.sabores = []
-        self.sabores.append = (self.sabor)
         
     def mostrar_lista(self):
-        print(self.sabores) 
+        sabores = []
+        sabores.append(self.sabor)
+        print(sabores)
 
-
-sorveteria = Sorveteria_ice('fome','mechido','Baunilha','')
-#sorveteria = Sorveteria_ice('Blue berry')
-#sorveteria = Sorveteria_ice('Amoras')
+Sabores1 = 'Baunilha','Blue berry','Amoras'
+sorveteria = Sorveteria_ice('fome','mechido',Sabores1)
 sorveteria.mostrar_lista()
