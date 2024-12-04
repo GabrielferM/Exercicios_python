@@ -1,4 +1,4 @@
-with open('Code\Leitura_de_dados\pi.txt') as arquivo_aberto:
+with open('Code\Leitura_de_dados\Textos\pi.txt') as arquivo_aberto:
     linhas = arquivo_aberto.readline()
 
 pi_linha = ''

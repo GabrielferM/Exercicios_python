@@ -1,4 +1,4 @@
-aprendizado = 'Code\Leitura_de_dados\Aprendizado_em_python.txt'
+aprendizado = 'Code\Leitura_de_dados\Textos\Aprendizado_em_python.txt'
 
 with open(aprendizado) as arquivo_aberto1:
     conteudo = arquivo_aberto1.read()
